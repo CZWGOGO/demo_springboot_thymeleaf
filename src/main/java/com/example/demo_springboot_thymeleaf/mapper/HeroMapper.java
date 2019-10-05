@@ -6,18 +6,17 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * Created by CZWGOGO on 2019/10/4 20:20
+ * Created by CZWGOGO on 2019/10/5 10:37
  */
 @Mapper
 public interface HeroMapper {
-    int add(Hero hero);
+    public int add(Hero hero);
 
-    void delete(int id);
+    public void delete(int id);
 
-    Hero get(int id);
+    public Hero get(int id);
 
-    int update(Hero hero);
+    public int update(Hero hero);
 
-
-    List<Hero> list();
+    public List<Hero> list();
 }

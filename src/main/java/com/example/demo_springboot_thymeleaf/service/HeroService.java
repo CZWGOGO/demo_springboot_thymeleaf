@@ -5,7 +5,7 @@ import com.example.demo_springboot_thymeleaf.pojo.Hero;
 import java.util.List;
 
 /**
- * Created by CZWGOGO on 2019/10/5 0:44
+ * Created by CZWGOGO on 2019/10/5 10:29
  */
 public interface HeroService {
     public int add(Hero hero);
@@ -17,6 +17,4 @@ public interface HeroService {
     public int update(Hero hero);
 
     public List<Hero> list();
-
-
 }
