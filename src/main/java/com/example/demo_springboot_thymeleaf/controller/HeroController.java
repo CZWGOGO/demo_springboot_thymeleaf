@@ -5,7 +5,6 @@ import com.example.demo_springboot_thymeleaf.service.HeroService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -14,7 +13,7 @@ import java.util.List;
 /**
  * Created by CZWGOGO on 2019/10/5 1:10
  */
-@Controller
+@RestController
 public class HeroController {
     @Autowired
     HeroService heroService;
